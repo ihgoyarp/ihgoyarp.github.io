@@ -336,7 +336,41 @@ header .social-icon li a
 		padding-bottom: 14px;
 	}
 /* end service */
-
+/* start service */
+#experience .col-md-4
+	{
+		padding: 40px;
+		-webkit-transition: all 0.4s ease-in-out;
+		        transition: all 0.4s ease-in-out;
+	}
+#experience .col-md-4:hover
+	{
+		background: #505050;
+	}
+#experience .active
+	{
+		background: #505050;
+		padding: 40px;
+	}
+#experience .fa
+	{
+		border: 1px solid #fff;
+		border-radius: 2px;
+		color: #fff;
+		font-size: 50px;
+		width: 100px;
+		height: 100px;
+		line-height: 100px;
+		text-align: center;
+	}
+#experience h4
+	{
+		color: #28a7e9;
+		font-weight: 600;
+		padding-top: 10px;
+		padding-bottom: 14px;
+	}
+/* end service */
 /* start portfolio */
 #portfolio
 	{
@@ -593,4 +627,3 @@ header .social-icon li a
 		}
 
 }
-/* end 360 media quires */
